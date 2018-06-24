@@ -37,6 +37,15 @@ img{
     padding: 25px 10px 30px 20px;
 }
 
+.contactbox {
+    background-color: #ffffff;
+    width: 1190px;
+    height: 640px;
+    margin: 50px 30px 20px 50px;
+    color: #777777;
+    padding: 25px 10px 30px 20px;
+}
+
 .bgi {
     background-image: url("../images/bodybackground.png");
 }
@@ -72,4 +81,10 @@ img{
 .copyright {
     box-align: center;
     padding-left: 45%
+}
+
+.contactform {
+    padding: 30px 0px 30px 45px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
 }
