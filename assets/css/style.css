@@ -1,0 +1,75 @@
+img{
+    display: inline;
+    padding-right: 1%;
+}
+.nameplate {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 55px;
+    width: 290px;
+    margin: 20px 240px 0px 240px;
+    padding: 15px 0px 0px 0px;
+    background-color: #4aaaa5;
+}
+
+.topnav {
+    float: right;
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 22;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    margin: -45px 400px 0px 400px;
+    padding: 0px 1px 0px 1px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.mainbox {
+    background-color: #ffffff;
+    width: 1190px;
+    height: 440px;
+    margin: 50px 30px 20px 50px;
+    color: #777777;
+    padding: 25px 10px 30px 20px;
+}
+
+.bgi {
+    background-image: url("../images/bodybackground.png");
+}
+.bg {
+    height: 860px;
+    width: 960px;
+    margin: 0px 190px 0px 190px;
+}
+
+.about {
+    font-family: "Georgia", "Times","Times New Roman", "serif";;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.maincontent {
+    padding-top: 30px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
+}
+
+.footer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 15px 0px 15px 0px;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+}
+
+.copyright {
+    box-align: center;
+    padding-left: 45%
+}
