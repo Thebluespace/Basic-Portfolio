@@ -8,7 +8,7 @@ img{
     color: white;
     text-align: center;
     height: 55px;
-    width: 290px;
+    width: 320px;
     margin: 20px 240px 0px 240px;
     padding: 15px 0px 0px 0px;
     background-color: #4aaaa5;
@@ -54,6 +54,7 @@ img{
     color: #777777;
     padding: 25px 10px 30px 20px;
 }
+
 .bgi {
     background-image: url("../images/bodybackground.png");
 }
@@ -71,6 +72,12 @@ img{
 }
 
 .maincontent {
+    padding-top: 30px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
+}
+
+.pitemsbox {
     padding-top: 30px;
     border-top: 3px solid grey;
     border-radius: 1px;
