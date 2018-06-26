@@ -17,11 +17,11 @@ img{
 .topnav {
     float: right;
     font-family: "Georgia", "Times","Times New Roman", "serif";
-    font-size: 22;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     height: 40px;
-    width: 350px;
+    width: 390px;
     margin: -45px 400px 0px 400px;
     padding: 0px 1px 0px 1px;
     border-style: solid;
@@ -99,7 +99,7 @@ img{
 }
 
 .contactform {
-    padding: 30px 0px 30px 45px;
+    padding: 30px 30px 30px 30px;
     border-top: 3px solid grey;
     border-radius: 1px;
 }
