@@ -21,11 +21,49 @@ img{
     font-weight: bold;
     text-align: center;
     height: 40px;
-    width: 390px;
+    width: 450px;
     margin: -45px 400px 0px 400px;
     padding: 0px 1px 0px 1px;
-    border-style: solid;
-    border-width: 0px;
+    border: none;
+    background-color: white;
+}
+
+.aboutbutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+    border: none;
+    border-right: 1px solid gray;
+    background-color: white;
+}
+
+.portfoliobutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 80px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 15px 0px 5px;
+    border: none;
+    border-right: 1px solid gray;
+    background-color: white;
+}
+ 
+.contactbutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+    border: none;
+    background-color: white;
 }
 
 .mainbox {
