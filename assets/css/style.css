@@ -125,7 +125,7 @@ img{
 }
 
 .pitemsbox {
-    padding-top: 30px;
+    padding: 30px 100px 0px 100px;
     border-top: 3px solid grey;
     border-radius: 1px;
 }
@@ -142,8 +142,10 @@ img{
 
 .copyright {
     position: relative;
-    box-align: center;
-    padding-left: 45%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
 }
 
 .contactform {
@@ -160,4 +162,58 @@ button:hover, input:hover {
 }
 button:active, input:active {
     color: red;
+}
+
+.pbutton1 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-size: contain;
+    background: transparent;
+    background-image: url("../images/hangman.jpeg");
+    background-repeat: no-repeat;
+}
+
+.pbutton2 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-image: url("../images/rpg.jpeg");
+    background-size: 100%;
+}
+.pbutton3 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-image: url("../images/trivia.jpeg");
+    background-size: contain;
+}
+.pbutton4 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 65px 25px 220px;
+    background-image: url("../images/rutgers.jpg");
+    background-size: contain;
+}
+.pbutton5 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 160px 25px 65px;
+    background-image: url("../images/rps.jpg");
+    background-size: contain;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
 }
