@@ -46,7 +46,7 @@ img{
     font-size: 18px;
     float: none;
     height: 30px;
-    width: 80px;
+    width: 85px;
     margin: 0px 0px 0px 0px;
     padding: 0px 15px 0px 5px;
     border: none;
@@ -114,6 +114,15 @@ img{
     border-top: 3px solid grey;
     border-radius: 1px;
 }
+.maincontent2 {
+    padding-top: 15px;
+    padding-left: 210px;
+}
+
+.ulist {
+    margin-left: 300px;
+    list-style-type: circle;
+}
 
 .pitemsbox {
     padding-top: 30px;
@@ -122,7 +131,7 @@ img{
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     left: 0%;
     right: 0%;
     bottom: 0%;
@@ -132,6 +141,7 @@ img{
 }
 
 .copyright {
+    position: relative;
     box-align: center;
     padding-left: 45%
 }
@@ -140,4 +150,14 @@ img{
     padding: 30px 30px 30px 30px;
     border-top: 3px solid grey;
     border-radius: 1px;
+}
+
+button:focus, input:focus{
+    color: blue;;
+}
+
+button:hover, input:hover {
+}
+button:active, input:active {
+    color: red;
 }
